@@ -7214,3 +7214,22 @@ java.lang.RuntimeException: Did not expect to find item below node: Assign[targe
 	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
 	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 1 1 2020-11-19 11:30:25.985
+!MESSAGE No existing console history at: C:\Users\ITAUser\Desktop\Python\.metadata\.plugins\org.python.pydev.shared_interactive_console\history.py
+!STACK 0
+java.io.FileNotFoundException: C:\Users\ITAUser\Desktop\Python\.metadata\.plugins\org.python.pydev.shared_interactive_console\history.py (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(Unknown Source)
+	at java.base/java.io.FileInputStream.<init>(Unknown Source)
+	at java.base/java.io.FileReader.<init>(Unknown Source)
+	at org.python.pydev.shared_interactive_console.console.ScriptConsoleGlobalHistory.load(ScriptConsoleGlobalHistory.java:96)
+	at org.python.pydev.shared_interactive_console.console.ScriptConsoleGlobalHistory.<init>(ScriptConsoleGlobalHistory.java:45)
+	at org.python.pydev.shared_interactive_console.console.ScriptConsoleGlobalHistory.<clinit>(ScriptConsoleGlobalHistory.java:37)
+	at org.python.pydev.shared_interactive_console.console.ScriptConsoleHistory.<init>(ScriptConsoleHistory.java:56)
+	at org.python.pydev.shared_interactive_console.console.ui.ScriptConsole.<init>(ScriptConsole.java:210)
+	at org.python.pydev.debug.newconsole.PydevConsole.<init>(PydevConsole.java:84)
+	at org.python.pydev.debug.newconsole.PydevConsoleFactory.connectDebugger(PydevConsoleFactory.java:170)
+	at org.python.pydev.debug.newconsole.PydevConsoleFactory.access$1(PydevConsoleFactory.java:164)
+	at org.python.pydev.debug.newconsole.PydevConsoleFactory$1.run(PydevConsoleFactory.java:94)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
