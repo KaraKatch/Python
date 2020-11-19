@@ -50,9 +50,9 @@ A = 4.6
 #Make a variable, and then go down a couple lines and change the data in that
 #same variable:
  
- c = 12
+c = 12
  
- c = 4.8
+c = 4.8
 
 #4)
 #Make a variable and set it to a variable you have already created:
@@ -88,4 +88,3 @@ print(A)
 
 = 4
 
-l == 12
