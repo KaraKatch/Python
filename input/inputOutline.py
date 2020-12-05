@@ -27,3 +27,4 @@ response = input(question)
 
 age = print(response)
 
+age = 17

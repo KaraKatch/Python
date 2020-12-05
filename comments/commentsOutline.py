@@ -17,4 +17,4 @@ multi-line comment.
 #3) Make an int variable. Then, make a single line comment on the 
 #same line, after the variable.
 
-var = 4  #single line comment.
+var = 8  #single line comment.
