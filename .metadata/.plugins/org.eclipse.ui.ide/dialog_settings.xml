@@ -17,4 +17,6 @@
 		<item value="org.eclipse.userstorage:1.2.0.v20190308-0433"/>
 		<item value="org.python.pydev.feature:8.0.0.202009061243"/>
 	</list>
+	<section name="NewWizardAction">
+	</section>
 </section>
