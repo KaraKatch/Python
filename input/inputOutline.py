@@ -10,6 +10,7 @@ text_to_user = "What is your favorite color?"
 userResponse = input(text_to_user)
 
 favColor = userResponse
+print(favColor)
 #2) Make a variable called question and set it to "What is your name?". Then
 #get input from the user to the question and store their answer in a variable
 #called name.
