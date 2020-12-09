@@ -1,10 +1,13 @@
 '''
+This program asks a series of survey questions. You will answer the questions 
+and the program will store your answers in a variable and then print that 
+variable/your answers.
+
 Created on Dec 5, 2020
 
-@author: ITAUser
+@author: ITAUser: Kara Katch
 '''
-#Use input() to ask the user "What is your name?" and store that in
-#a variable called name. Then print the variable.
+
 userName = input("What is your name?")
 
 name = userName
