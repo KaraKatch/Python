@@ -49,7 +49,8 @@ print(k)
 l = (11/3) < (100/33)
 print(1)
 #12) Check if 9 times 7 is greater than 8 times 8 and store the answer in variable m
-
+m = (9*7) > (8*8)
+print(m)
 #13) Check if the square root of 3 is less than 1.15 squared and store the answer in
 #  ) variable n
 
