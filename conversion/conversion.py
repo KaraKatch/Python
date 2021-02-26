@@ -1,12 +1,12 @@
 '''
-
+This program will convert a certain number of miles into different units of 
+measure.
 
 @author: Kara Katch
 '''
 #Use input() to get the number of miles from the user. And store
 #that int in a variable called miles.
 miles = 2
-input(miles)
 #Convert miles to yards, using the following:
 # 1 mile = 1760 yards.
 #
