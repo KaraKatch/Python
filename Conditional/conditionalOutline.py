@@ -36,5 +36,7 @@ else:
 
 
 #5) Make an if statement with any comparison, with a common SYNTAX error.
-
+a = False
+iftrue):
+    print("a is True.")
 

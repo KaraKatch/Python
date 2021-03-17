@@ -40,24 +40,24 @@ If the problem is: anything else, it says: Your car is fine.
 '''
 def fixMyCar(problem):
     if(problem == "tire"):
-    print("Replace tires.")
-    elif():
+        print("Replace tires.")
+    elif(problem == "headlight"):
         print("Fill headlight fluid.")
-    (problem == "door"):
+    elif(problem == "door"):
         print("replace door")
-    elif(problem == "gas")
+    elif(problem == "gas"):
         print("Fill gas tank")
-    elif(problem == "window":
+    elif(problem == "window"):
         print("Replace window")
-    elifproblem == "wipers"):
+    elif(problem == "wipers"):
         print("Replace windshield wipers")
-    eif(problem == "battery"):
+    elif(problem == "battery"):
         print("Replace battery")
-    else(problem == "exhaust"):
+    elif(problem == "exhaust"):
         print("Replace exhaust system")
-    if(problem == "transmission"):
+    elif(problem == "transmission"):
         print("Throw out car")
-    if:
+    else:
         print("Your car is fine.")
     
     return 
