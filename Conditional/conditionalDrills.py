@@ -41,12 +41,18 @@ else:
 #Make an if/elif statement. If answer is a, b, or d, print "Wrong". Elif answer
 #is c, print "Correct".
 answer = "c"
-if(answer == "a, b, or d"):
+if(answer == [a,b,d]):
     print("wrong")
-elif( answer == "c"):
+elif(answer == c):
     print("correct")
-
+    
 #5)Make two boolean variables. Make an if/elif/else statement. If both booleans 
 #are true, print "Both". Elif only one of the booleans is true, print "Only 
 #one". Else, print "Neither".
-
+d=5
+if(d > 4):
+    print("both")
+elif(2 > d > 4):
+    print("only one")
+else:
+    print("neither")
