@@ -32,7 +32,7 @@ while(x < 100):
 #out all the items.
 a = [1, 2, 3]
 for x in a:
-    print(x)
+    print(a)
 
 
 #4) Make a string list with three items inside: "Michael", "Chris", "Nino". 
@@ -47,9 +47,13 @@ for x in b:
 
 
 #5) Make a while loop with a common SYNTAX error.
-
+x = 4
+while(x = 4)
+    print(x)
 
 
 #6) Make a for loop with a common SYNTAX error.
-
+x = [4, 6, 8]
+for x in x
+ print(x)
 
