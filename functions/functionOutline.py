@@ -18,7 +18,6 @@ def boolean(a, b ):
 a = True
 b = False
 boo = boolean(a, b)
-
 #2) Make a function that takes one int parameter: gallons. Convert gallons
 #to cups (do this by multiplying gallons by 16). Then return cups. Then,
 #call the function.
@@ -33,5 +32,13 @@ print(cups)
 #3) Make a function of any any kind with a common SYNTAX error. Then, call the
 #function.
 #Print what the function returns.
+def printListlist):
+    for x in list:
+        print(x)
+        return
+a = [1,2,3]
+printList(a)
+b = ["hi", "no",]
+printList(b)
 
 
